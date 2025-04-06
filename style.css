@@ -29,12 +29,19 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+ display: flex;
+ justify-content: space-between;
+ 
   background: var(--primary);
   backdrop-filter: var(--blur);
   -webkit-backdrop-filter: var(--blur);
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
   z-index: 999;
   animation: fadeIn 1s ease;
+}
+.logo
+{
+  margin-right: 170px;
 }
 .logo img
 {
@@ -86,6 +93,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
   text-align: center;
   gap: 30px;
   padding: 100px 20px 60px;
